@@ -30,7 +30,7 @@ Installation
 Provide step-by-step instructions on how to install dependencies and configure the environment. You can add a requirements.txt file if necessary.
 
 
-# Open IDE and create Project Directory or Navigate to Project Directory 
+**Open IDE and create Project Directory or Navigate to Project Directory **
 cd [/Users/path/to/your/directory]
 
 # Clone the repository into IDE
