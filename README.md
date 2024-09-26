@@ -75,42 +75,15 @@ Data was merged and then processed to remove duplicates, NaN's and irrelevant co
 **Model Training**
 
 Training the Model
-Provide a detailed explanation of how to train the model, including all required parameters and commands.
-
-bash
-Copy code
-# Command to run the training script
-python train.py --data_dir ./data --epochs 50 --batch_size 32 --learning_rate 0.001
-Explain what each command and parameter does:
-
---data_dir: Directory where the dataset is stored
---epochs: Number of training epochs
---batch_size: Size of the training batch
---learning_rate: Learning rate for the optimizer
-Model Checkpoints
-Mention if the model saves checkpoints during training and where users can find them.
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Prediction**
-
-How to Use the Model for Prediction
-Provide instructions on how to use the trained model for making predictions. Include example commands:
-
-bash
-Copy code
-# Command to run the prediction script
-python predict.py --model_path ./models/best_model.pth --input_data ./data/test.csv
-Explain the parameters:
-
---model_path: Path to the saved model file
---input_data: Path to the input data for predictions
-Include an example of the expected output format.
+The model was trained using functions from the sklearn library to firstly split data into training and test sets and then relevant models were imported in. We used two models firstly a simple linear regression model and then a random forest algorithm. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Results**
 
-Briefly discuss how the model performed, including metrics (accuracy, F1-score, etc.) and any charts or graphs if applicable. You can link to a more detailed report or results page if necessary.
+To evaluate the linear regression model we used the scorer function from sk learn. It returns an R^2 value (coefficient of determintation) which shows how well the regression fit. The result was a r2 of 0.59 which is pretty average. 
+
+Because the model didnt return a desirable r^2 score I chose to build a new random forest model that should evaluate better. The score for this model was 0.82
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Contact**
