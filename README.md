@@ -2,6 +2,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This model has been developed to provide predictive capabilities for the Australian housing market. It takes in two datasets merges them and applies data cleaning and preprocessing techniques. 
 From there it splits the dataset into training and test models and uses the pandas and sklearn and other libraries to select an appropritate model and build the model.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Table of Contents**
 Project Overview
@@ -28,17 +29,43 @@ Libraries: numpy, pandas, tensorflow, scikit-learn, etc.
 Installation
 Provide step-by-step instructions on how to install dependencies and configure the environment. You can add a requirements.txt file if necessary.
 
-bash
-Copy code
-# Clone the repository
-git clone https://github.com/username/projectname.git
 
-# Navigate to the project directory
-cd projectname
+# Open IDE and create Project Directory or Navigate to Project Directory 
+cd [/Users/path/to/your/directory]
 
-# Install dependencies
-pip install -r requirements.txt
-Dataset Description
+# Clone the repository into IDE
+git clone https://github.com/Thomaspeacock-studio/HousingPriceMachineLearningModel.git
+
+# Install virtualenv if you don't have it
+pip install virtualenv
+
+# Create a virtual environment
+virtualenv venv
+
+# Activate the environment (Linux/Mac)
+source venv/bin/activate
+
+# Activate the environment (Windows)
+.\venv\Scripts\activate
+
+# Install the required packages
+python>=3.7
+# Core data science libraries
+numpy>=1.18.0
+pandas>=1.0.0
+scikit-learn>=0.24.0
+
+# Jupyter notebook for running .ipynb files
+jupyterlab>=3.0.0
+
+# Add matplotlib or seaborn if you need plotting
+matplotlib>=3.2.0
+seaborn>=0.10.0
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Dataset Description**
 
 Describe the dataset used for training, testing, and validation. Include information such as:
 
