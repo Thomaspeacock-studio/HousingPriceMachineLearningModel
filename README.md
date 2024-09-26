@@ -64,11 +64,12 @@ seaborn>=0.10.0
 
 Describe the dataset used for training, testing, and validation. Include information such as:
 
-Source of the dataset
-Format of the dataset (e.g., CSV, JSON)
-How to download or preprocess the dataset
-Any relevant details about the features and labels
-If needed, include download links or preprocessing scripts.
+The model was trained on two datasets obtained from Kaggle, the links are below. 
+Dataset 1 - https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market
+Dataset 2 - https://www.kaggle.com/datasets/amalab182/property-salesmelbourne-city
+
+Both datasets are in a CSV format and can be downloaded from the links provided. The authors of the original dataset claim that the data was scarped from domain.com and other real estate website API's. 
+Data was merged and then processed to remove duplicates, NaN's and irrelevant columns were dropped. The method for this is shown in the source code.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Model Training**
