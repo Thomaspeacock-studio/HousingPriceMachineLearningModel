@@ -30,35 +30,30 @@ Installation
 Provide step-by-step instructions on how to install dependencies and configure the environment. You can add a requirements.txt file if necessary.
 
 
-**Open IDE and create Project Directory or Navigate to Project Directory **
+1. Open IDE and create Project Directory or Navigate to Project Directory
 cd [/Users/path/to/your/directory]
 
-# Clone the repository into IDE
+2. Clone the repository into IDE
 git clone https://github.com/Thomaspeacock-studio/HousingPriceMachineLearningModel.git
 
-# Install virtualenv if you don't have it
+3. Install virtualenv if you don't have it
 pip install virtualenv
 
-# Create a virtual environment
+4. Create a virtual environment
 virtualenv venv
 
-# Activate the environment (Linux/Mac)
+5. Activate the environment (Linux/Mac)
 source venv/bin/activate
 
-# Activate the environment (Windows)
+6. Activate the environment (Windows)
 .\venv\Scripts\activate
 
-# Install the required packages
+7. Install the required packages
 python>=3.7
-# Core data science libraries
 numpy>=1.18.0
 pandas>=1.0.0
 scikit-learn>=0.24.0
-
-# Jupyter notebook for running .ipynb files
 jupyterlab>=3.0.0
-
-# Add matplotlib or seaborn if you need plotting
 matplotlib>=3.2.0
 seaborn>=0.10.0
 
