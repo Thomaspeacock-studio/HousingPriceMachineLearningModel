@@ -67,9 +67,10 @@ Describe the dataset used for training, testing, and validation. Include informa
 The model was trained on two datasets obtained from Kaggle, the links are below. 
 Dataset 1 - https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market
 Dataset 2 - https://www.kaggle.com/datasets/amalab182/property-salesmelbourne-city
+Dataset 3 - https://data.melbourne.vic.gov.au/explore/dataset/house-prices-by-small-area-transfer-year/export/
 
 Both datasets are in a CSV format and can be downloaded from the links provided. The authors of the original dataset claim that the data was scarped from domain.com and other real estate website API's. 
-Data was merged and then processed to remove duplicates, NaN's and irrelevant columns were dropped. The method for this is shown in the source code.
+Data was merged and then processed to remove duplicates, NaN's and irrelevant columns were dropped. The method for this is shown in the source code.Third dataset is also in CSV format and is license by CC BY, published by data.melbourne.vic.gov.au and data provided by City of Melbourne. The third dataset is median prices for dwellings/townhouses, and apartments by their year of settlement for the City of Melbourne by CLUE Small area.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Model Training**
