@@ -86,6 +86,26 @@ The r2 score was pretty good but we could make it better so I chose to build a n
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Using the model
+------------------------------------------------------------------------------------------------------------------------
+To use the model users will have to input values like:
+
+Rooms                
+Type                 
+Price             
+Distance             
+Bedroom2          
+Bathroom          
+Car               
+Landsize         
+BuildingArea     
+Longtitude        
+Regionname           
+Propertycount     
+
+into our UI/UX which will be developed in Assignment 3. The website will take in this variables and parse them as an array into the model.predict() function. The website should do all the usual checks to enusre data is properly fomratted and useable and not malicious. Once an output is produced by the model we can run checks on the accuracy of the model and return an error or warning if there are any suspect results. The predicted valuew will then be returned to the user on the website.  
+
+
 **Contact**
 - Thomas - 102173577@student.swin.edu.au
 - -Nitesh - 104484695@student.swin.edu.au
