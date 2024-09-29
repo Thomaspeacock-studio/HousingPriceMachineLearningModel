@@ -80,9 +80,9 @@ The model was trained using functions from the sklearn library to firstly split 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Results**
 
-To evaluate the linear regression model we used the scorer function from sk learn. It returns an R^2 value (coefficient of determintation) which shows how well the regression fit. The result was a r2 of 0.59 which is pretty average. 
+To evaluate the linear regression model we used the scorer function from sk learn. It returns an R^2 value (coefficient of determintation) which shows how well the regression fit. 
 
-Because the model didnt return a desirable r^2 score I chose to build a new random forest model that should evaluate better. The score for this model was 0.82
+The r2 score was pretty good but we could make it better so I chose to build a new random forest model that should evaluate better. The score for this model was 0.98 which is really high and shows a good fit. 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
