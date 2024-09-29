@@ -5,6 +5,7 @@ From there it splits the dataset into training and test models and uses the pand
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Table of Contents**
+
 Project Overview
 Environment Setup
 Dataset Description
