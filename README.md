@@ -5,12 +5,19 @@ From there it splits the dataset into training and test models and uses the pand
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Table of Contents**
+
 Project Overview
+
 Environment Setup
+
 Dataset Description
+
 Model Training
+
 Prediction
+
 Results
+
 Contributing
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -80,13 +87,33 @@ The model was trained using functions from the sklearn library to firstly split 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Results**
 
-To evaluate the linear regression model we used the scorer function from sk learn. It returns an R^2 value (coefficient of determintation) which shows how well the regression fit. The result was a r2 of 0.59 which is pretty average. 
+To evaluate the linear regression model we used the scorer function from sk learn. It returns an R^2 value (coefficient of determintation) which shows how well the regression fit. 
 
-Because the model didnt return a desirable r^2 score I chose to build a new random forest model that should evaluate better. The score for this model was 0.82
+The r2 score was pretty good but we could make it better so I chose to build a new random forest model that should evaluate better. The score for this model was 0.98 which is really high and shows a good fit. 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Using the model
+------------------------------------------------------------------------------------------------------------------------
+To use the model users will have to input values like:
+
+Rooms                
+Type                 
+Price             
+Distance             
+Bedroom2          
+Bathroom          
+Car               
+Landsize         
+BuildingArea     
+Longtitude        
+Regionname           
+Propertycount     
+
+into our UI/UX which will be developed in Assignment 3. The website will take in this variables and parse them as an array into the model.predict() function. The website should do all the usual checks to enusre data is properly fomratted and useable and not malicious. Once an output is produced by the model we can run checks on the accuracy of the model and return an error or warning if there are any suspect results. The predicted valuew will then be returned to the user on the website.  
+
+
 **Contact**
 - Thomas - 102173577@student.swin.edu.au
-- -Nitesh - 104484695@student.swin.edu.au
+- Nitesh - 104484695@student.swin.edu.au
 - Alex - 104268899@student.swin.edu.au
