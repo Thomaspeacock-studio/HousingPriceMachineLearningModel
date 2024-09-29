@@ -115,5 +115,5 @@ into our UI/UX which will be developed in Assignment 3. The website will take in
 
 **Contact**
 - Thomas - 102173577@student.swin.edu.au
-- -Nitesh - 104484695@student.swin.edu.au
+- Nitesh - 104484695@student.swin.edu.au
 - Alex - 104268899@student.swin.edu.au
